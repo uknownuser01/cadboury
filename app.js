@@ -205,7 +205,7 @@ function updateSharingProgressUI() {
 function shareWhatsApp() {
     if (currentShares >= SHARING_TARGET) return; // No more
     const message = encodeURIComponent(
-        "🎉 I just won a Cadbury Gift Box worth $100! " +
+        "🎉 I just won a Cadbury Gift Box worth ₹499! " +
         "Join this amazing Diwali promotion and win exciting prizes! " +
         "Click here to participate: " + window.location.href
     );
